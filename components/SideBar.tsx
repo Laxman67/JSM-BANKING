@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 const SideBar = ({ user }: SiderbarProps) => {
   const pathname = usePathname();
   return (
-    <section className="">
+    <section className="flex flex-col h-screen justify-between">
       <nav className="flex flex-col gap-4">
         {/* Main Logo */}
         <Link

@@ -204,6 +204,7 @@
   width: 100%;
   background-size: cover;
   background-position: center;
+  background-color: red;
   background-repeat: no-repeat;
 }
 
@@ -277,6 +278,10 @@
   padding: 2rem;
   max-height: 100vh;
   overflow-y: auto;
+}
+
+.header-2 {
+  font-weight: 500;
 }
 
 .transactions-header {
@@ -681,7 +686,8 @@
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   border-radius: 0.5rem;
-  justify-content: center;
+  justify-content: start;
+
 }
 
 .sidebar-label {
